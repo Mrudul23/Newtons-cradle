@@ -19,7 +19,7 @@ class Bob {
     display(){
         push();
         imageMode(CENTER);
-        image(this.image,this.body.position.x,this.body.position.y,80,80);
+        image(this.image,this.body.position.x,this.body.position.y,85,85);
         pop();
     }
     
